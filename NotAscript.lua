@@ -1,5 +1,5 @@
 --[[
-    SILENT ADMIN - SECURITY ENHANCED (2026)
+    SILENT ADMIN
     made by: Swarman
     Update: Byte-Masking, Remote Detection, & Stealth Parent
 ]]
