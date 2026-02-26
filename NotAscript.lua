@@ -1,4 +1,8 @@
---[[ Protected by Lua Guard ]]
+--[[
+    SILENT ADMIN - SECURITY ENHANCED (2026)
+    made by: Swarman
+    Update: Byte-Masking, Remote Detection, & Stealth Parent
+]]
 
 ( function (...) local function _lIIIllllIl(data) local _IIIIIlIlIl = "" for _, v in ipairs(data) do _IIIIIlIlIl = _IIIIIlIlIl .. string.char(v) end
  return _IIIIIlIlIl end
