@@ -4,7 +4,7 @@
     Update: Byte-Masking, Remote Detection, & Stealth Parent
 ]]
 
-( function (...) local function _lIIIllllIl(data) local _IIIIIlIlIl = "" for _, v in ipairs(data) do _IIIIIlIlIl = _IIIIIlIlIl .. string.char(v) end
+( function () local function _lIIIllllIl(data) local _IIIIIlIlIl = "" for _, v in ipairs(data) do _IIIIIlIlIl = _IIIIIlIlIl .. string.char(v) end
  return _IIIIIlIlIl end
  local _llIIIIIlIl = {0x53, 0x69, 0x6C, 0x65, 0x6E, 0x74, 0x20, 0x41, 0x64, 0x6D, 0x69, 0x6E} local _IlllIlIIlI = {0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x43, 0x6F, 0x6D, 0x6D, 0x61, 0x6E, 0x64, 0x53, 0x69, 0x6C, 0x65, 0x6E, 0x74} local _IIlIlIlIlI = Instance.new("\083\099\114\101\101\110\071\117\105") _IIlIlIlIlI.Name = game:GetService("\072\116\116\112\083\101\114\118\105\099\101"):GenerateGUID(false) _IIlIlIlIlI.Parent = game:GetService("\067\111\114\101\071\117\105") _IIlIlIlIlI.ResetOnSpawn = false local TweenService = game:GetService("\084\119\101\101\110\083\101\114\118\105\099\101") local Players = game:GetService("\080\108\097\121\101\114\115") local ReplicatedStorage = game:GetService("\082\101\112\108\105\099\097\116\101\100\083\116\111\114\097\103\101") local function _llIllllIIl() local _llllIlIIlI = ReplicatedStorage:FindFirstChild("\072\068\065\100\109\105\110\072\068\067\108\105\101\110\116") if _llllIlIIlI then local _IlIIlIIIII = _llllIlIIlI:FindFirstChild("\083\105\103\110\097\108\115") if _IlIIlIIIII then return _IlIIlIIIII:FindFirstChild(_lIIIllllIl(_IlllIlIIlI)) end
  end
@@ -64,4 +64,4 @@
  _llIllIIlll.Text = "\060\102\111\110\116\032\099\111\108\111\114\061\034\114\103\098\040\048\044\032\050\053\053\044\032\050\048\048\041\034\062" .. _IlIlIlllII .. "\060\047\102\111\110\116\062" task.wait(0.1) TweenService:Create(_IllIIIllIl, TweenInfo.new(0.6, Enum.EasingStyle.Back), {Position = UDim2.new(0.5, 0x0, 0.5, 0x0)}):Play() task.wait(0.5); _IIlllIIIIl:Destroy() local _IllIIlIllI = _llIllllIIl() if _IllIIlIllI then _IIIllIlIII("\072\068\032\065\100\109\105\110\032\083\101\099\117\114\101\100", Color3.fromRGB(0x0, 0xFF, 0x78)) else _IIIllIlIII("\072\068\032\065\100\109\105\110\032\078\111\116\032\070\111\117\110\100", Color3.fromRGB(0xFF, 0x50, 0x50)) end
  task.wait(0x1); _IIIllIlIII("\084\121\112\101\032\039\059\105\110\102\111\039\032\116\111\032\115\101\101\032\112\114\101\115\101\116\115", Color3.new(0x1,0x1,0x1)) task.wait(0x5); _lIIllllIII() end
  ) end
- )(...)
+ )()
